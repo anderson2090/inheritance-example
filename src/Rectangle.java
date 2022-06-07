@@ -12,10 +12,10 @@ public class Rectangle extends GeometricObject {
     }
 
     public Rectangle(String color, boolean filled, double width, double height) {
+        super(color,filled);
         this.width = width;
         this.height = height;
-        setColor(color);
-        setFilled(filled);
+
     }
 
     public double getWidth() {

@@ -7,7 +7,10 @@ public class Main {
 //        Circle circle = new Circle(2);
 //        System.out.println(circle.toString());
 
-        Rectangle rectangle = new Rectangle("blue", true, 3, 4);
-        System.out.println(rectangle.toString());
+//        Rectangle rectangle = new Rectangle("blue", true, 3, 4);
+//        System.out.println(rectangle.toString());
+
+        Square square = new Square(2,2,"blue",true);
+        System.out.println(square.getColor());
     }
 }
