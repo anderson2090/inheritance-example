@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GeometricObject geometricObject = new GeometricObject("Green", true);
+
+        System.out.println(geometricObject.toString());
     }
 }
